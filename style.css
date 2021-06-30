@@ -1,5 +1,5 @@
 *{
-				font-family: 'Castoro', sans-serif; 
+				font-family: 'Yantramanav', sans-serif; 
 				list-style: none;
 				
 }
@@ -7,7 +7,7 @@ body {
 				margin: 0;
 				padding: 0;
 				font-size: 20px;
-			  background:#ffdbd5;
+			  background:#EDF1FD;
 }
 .grid-v{
        padding: 130px 0;
@@ -23,11 +23,11 @@ body {
 				
 }
 
-.bg2{
-				background: #733331;
+.bg2{   
+				background: #3D414D;
 				border-radius: 40px 40px 0 0;
 				padding: 20px 0;
-				color: #ffdbd5;
+				color: #EDF1FD;
 }
 
 .grid{
@@ -42,22 +42,26 @@ body {
 				
 header{
       padding: 0 50px;
- 			color: #733331;
- 			background: #ffdbd5;
+ 			color: #FE0138;
+ 			background: #EDF1FD;
  			left: 0;
       top: 0;
 		   width:100%;
-		  	font-size: 15px;
+		  	
       display: flex;
       justify-content: between;
       position: fixed;
+}
+
+header h3{
+				font-size: 20px;
 }
 
 aside{
       margin: 0;
       padding: 0;
       height: 100%;
-      color: #fff;
+      color: #EDF1FD;
       text-align: left;
       font-size: 35px;
 
@@ -68,7 +72,7 @@ aside{
 }
 main{
       height: 100%;
-      color: #000;
+      color: #3D414D;
       margin: 0 auto;
 
 }
@@ -82,10 +86,9 @@ img{
 .contact-btn{
 
        font-size: 80px;
-  			padding: 30px;
   			transition: 0.2s;
-				color: #ffdbd5;
-				background: 000;
+				color: #EDF1FD;
+				
 				border-radius: 20px;
 				float: none;
 				text-align: center;
@@ -94,8 +97,8 @@ img{
 }
 .contact-btn:hover{
   font-size: 100px;
-  background: #ffdbd5;
-  color: #733331;
+  background: #EDF1FD;
+  color: #3D414D;
 }
 
 .grid a{
@@ -105,13 +108,13 @@ img{
 footer{
       font-family: 'Roboto', sans-serif;
       width:100%;
-      background: #733331;
+      background: #3D414D;
       bottom: 0;
       left: 0;
       position: fixed;
       display: block;
       text-align: center;
-      color: #ffdbd5;
+      color: #EDF1FD;
 }
 footer p{
 				font-size: 13px;
@@ -121,14 +124,14 @@ footer p{
        
        
 				margin: 60px 50px;
-				color: #000;
+				color: #3D414D;
 				
 	
 	
 }
 
 .skill p{
-				color: #000;
+				color: #3D414D;
 }
 
 .skill li{
@@ -139,14 +142,14 @@ footer p{
 				display: block;
 				height: 7px;
 				
-				background: #e3a3a1;
+				background: #3D414D;
 				border-radius: 5px;
 				overflow: hidden;
 }
 .bg99{
 				display: block;
 				height: 5px;
-				background: #ffdbd5;
+				background: #EDF1FD;
 				border-radius: 5px;
 				overflow: hidden;
 }
@@ -154,7 +157,7 @@ footer p{
 				height: 7px;
 				border-radius: 5px;
 				float: left;
-				background: #733331;
+				background: #FE0138;
 }
 
 .s1{
@@ -249,5 +252,16 @@ gd img{
 				width: 250px;
 				height: 313px;
 				border-radius: 10px;
+				animation: img 1s;
 }
 
+@keyframes img{
+       
+				0%{
+								opacity: 0%;
+								
+				}
+				100%{
+								opacity: 100%;
+				}
+			
